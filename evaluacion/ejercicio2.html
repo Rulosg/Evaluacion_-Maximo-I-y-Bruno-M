@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+var nota=0
+var cantp=0
+var canta=0
+var suma=0
+var cantt=0
+for (i=0; i<10; i++){
+    var nota=parseInt((prompt("Ingrese la nota:")))
+    suma= suma + nota
+    if (nota%2==0){
+        cantp++
+    }
+    if(nota>7){
+        canta++
+    }
+
+}
+var cantt= cantp+canta
+var promedio= suma/10
+var porcentaje = suma /cantt *100
+alert("El promdeio es:" + promedio)
+alert("El procentaje es:" + porcentaje)
+
+
+    
+</script>
